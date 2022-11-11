@@ -20,8 +20,6 @@ import scipy.stats as scs
 import warnings
 warnings.filterwarnings("ignore")
 
-from fbprophet import Prophet
-
 
 def main():
     print("Import without error")

@@ -28,7 +28,7 @@ jobs:
           python -m pip install --upgrade cython
           python -m pip install --upgrade cmake
           python -m pip install -r requirements.txt
-          python -m pip install pystan==2.19
+          python -m pip install pystan~=2.14
           python -m pip install prophet fbprophet
       - name: Run main script
         run: python main.py
