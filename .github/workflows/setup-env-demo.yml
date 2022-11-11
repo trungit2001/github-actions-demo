@@ -16,7 +16,8 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install wheel
           python -m pip install cython
-          python -m pip install pystan==2.14
           python -m pip install -r requirements.txt
+          python -m pip install pystan==2.14
+          python -m pip install prophet fbprophet
       - name: Run main script
         run: python main.py
